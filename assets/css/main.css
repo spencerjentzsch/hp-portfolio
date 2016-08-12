@@ -1984,3 +1984,11 @@
 		#footer .copyright a {
 			color: inherit;
 		}
+
+
+/**SJ addition**/
+
+.fa {
+	color: #ddd;
+	font-size: 2em;
+}

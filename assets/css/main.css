@@ -1417,7 +1417,6 @@
 
 			#header h1 a {
 				border: 0;
-				color: inherit;
 			}
 
 				#header h1 a:hover {
@@ -1991,4 +1990,34 @@
 .fa {
 	color: #ddd;
 	font-size: 2em;
+}
+
+.yes {
+	font-size: .85em;
+	color: white;
+	background-color: #34a58e;
+	padding: 5px 9px;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid white;
+	border-radius: 30%;
+}
+
+.no {
+	font-size: .85em;
+	color: white;
+	background-color: white;
+	padding: 5px 9px;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid #34a58e;
+	border-radius: 30%;
+}
+
+.hp a {
+	color: #34a58e;
+}
+
+.hp a:hover {
+	color: white;
 }

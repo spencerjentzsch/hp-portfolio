@@ -294,6 +294,23 @@
 							$main[0]._poptrox.windowMargin = 0;
 						});
 
+
+		// Hacker Paradise filters
+
+		$('.filter').click(function() {
+			var hacker = $('.hacker');
+			var filter = $(this).attr('href').slice(1);
+
+			$('.filter').removeClass('filter--active');
+			$(this).addClass('filter--active');
+
+			hacker.show();
+
+			if (filter) {
+				var klass = 'all' != filter ? '.hacker--' + filter : '.hacker--jeju.hacker--chiang-mai.hacker--bali';
+				hacker.not(klass).hide();
+			}
+		}).filter('[href="' + window.location.hash + '"]').click();
 	});
 
 })(jQuery);

@@ -2022,4 +2022,16 @@
 	color: white;
 }
 
+.filter {
+	opacity: .25;
+}
 
+.filter--active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 980px) {
+	.filter {
+		display: none !important;
+	}
+}
